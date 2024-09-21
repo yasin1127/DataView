@@ -10,4 +10,7 @@ class CVM: ViewModel() {
     fun decrementC(){
          c--
     }
+    fun resetC(){
+        c = 0
+    }
 }

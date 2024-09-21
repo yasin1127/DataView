@@ -26,6 +26,10 @@ class MainActivity : AppCompatActivity() {
             cvm.decrementC()
             binding.ctxt.text= cvm.c.toString()
         }
+        binding.rbtn.setOnClickListener {
+            cvm.resetC()
+            binding.ctxt.text= cvm.c.toString()
+        }
 
     }
 }
